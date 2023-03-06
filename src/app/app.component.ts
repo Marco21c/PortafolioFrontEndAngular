@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PortafolioFrontendAngular';
+  title = 'Menu Principal';
+  opciones:String[] = ['Inicio','Acerca de','Educacion','Soft & Hard Skills','Web Skills','Proyectos','Login'];
 }
